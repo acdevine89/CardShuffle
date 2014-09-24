@@ -1,7 +1,4 @@
 package com.example.CardShuffle;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Collections;
 
 public class CardShuffleDemo {
 

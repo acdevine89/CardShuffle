@@ -23,7 +23,8 @@ public class Deck {
 
         for (int player=1; player<5; player++)
         {
-            System.out.println("Player " + player + "'s hand:");
+            System.out.println();
+            System.out.println("Player " + player + "'s Hand:");
 
             for (int card=0; card<5; card++)
             {
