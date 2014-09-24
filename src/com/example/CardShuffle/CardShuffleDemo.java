@@ -20,14 +20,17 @@ public class CardShuffleDemo {
 //                System.out.println(deckOfCards.get(i).getCardNum() + " of " + deckOfCards.get(i).getCardSuit());
 //            }
 
-        Collections.shuffle(deckOfCards);
+    Collections.shuffle(deckOfCards);
 
-    for (int player=0; player<4; player++)
+    for (int player=1; player<5; player++)
     {
+        System.out.println("Player " + player + "'s hand:");
+
         for (int card=0; card<5; card++)
         {
             System.out.println(deckOfCards.get(card).getCardNum() + " of " + deckOfCards.get(card).getCardSuit());
         }
+
     }
 
 
