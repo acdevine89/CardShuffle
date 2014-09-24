@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a1b4d77-71e7-4f65-a91b-2fcc471878f7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/CardShuffle/Shuffle.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/CardShuffle/CardShuffleDemo.java" afterPath="$PROJECT_DIR$/src/com/example/CardShuffle/CardShuffleDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/CardShuffle/Deck.java" afterPath="$PROJECT_DIR$/src/com/example/CardShuffle/Deck.java" />
     </list>
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CardShuffleDemo.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CardShuffleDemo.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/CardShuffle/CardShuffleDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.30364373" vertical-offset="0" max-vertical-offset="494">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,14 +38,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Deck.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Deck.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/CardShuffle/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9696356" vertical-offset="61" max-vertical-offset="675">
-              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="720">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#225#231#0" expanded="true" />
+                <element signature="e#230#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +81,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/example/CardShuffle/Card.java" />
         <option value="$PROJECT_DIR$/src/com/example/CardShuffle/Shuffle.java" />
-        <option value="$PROJECT_DIR$/src/com/example/CardShuffle/CardShuffleDemo.java" />
         <option value="$PROJECT_DIR$/src/com/example/CardShuffle/Deck.java" />
+        <option value="$PROJECT_DIR$/src/com/example/CardShuffle/CardShuffleDemo.java" />
       </list>
     </option>
   </component>
@@ -416,23 +415,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/CardShuffle/CardShuffleDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/CardShuffle/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="720">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#230#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/CardShuffle/Deck.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/CardShuffle/CardShuffleDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9696356" vertical-offset="61" max-vertical-offset="675">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.30364373" vertical-offset="0" max-vertical-offset="494">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#225#231#0" expanded="true" />
           </folding>
         </state>
       </provider>

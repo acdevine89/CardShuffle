@@ -7,6 +7,8 @@ public class CardShuffleDemo {
 
     public static void main(String[] args) {
 
+    Deck aDeck = new Deck();
+    aDeck.createDeckAndDealCards();
 
     }
 
