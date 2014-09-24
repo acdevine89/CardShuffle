@@ -25,20 +25,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CardShuffleDemo.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CardShuffleDemo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/CardShuffle/CardShuffleDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6605114" vertical-offset="0" max-vertical-offset="704">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/CardShuffle/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3622159" vertical-offset="0" max-vertical-offset="704">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,6 +67,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/example/CardShuffle/CardShuffleDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/example/CardShuffle/Card.java" />
       </list>
     </option>
   </component>
@@ -341,17 +351,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/example/CardShuffle/CardShuffleDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6605114" vertical-offset="0" max-vertical-offset="704">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/CardShuffle/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3622159" vertical-offset="0" max-vertical-offset="704">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
           </folding>
         </state>
       </provider>
