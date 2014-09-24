@@ -19,10 +19,9 @@ public class CardShuffleDemo {
             }
         }
 
-        for (int i=0; i<53; i++)
+        for (int i=0; i<52; i++)
         {
-            //System.out.println(deckOfCards.get(1).getCardNum());
-            System.out.println(deckOfCards.get(1).getCardSuit());
+            System.out.println(deckOfCards.get(i).getCardNum() + " of " + deckOfCards.get(i).getCardSuit());
         }
 //
 //public void printDeckOfCards()

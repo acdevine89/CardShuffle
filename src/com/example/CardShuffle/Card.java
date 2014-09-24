@@ -4,10 +4,17 @@ public class Card {
 
     private int cardSuit;
     private int cardNum;
+
     private String hearts = "Hearts";
     private String spades = "Spades";
     private String clubs = "Clubs";
     private String diamonds = "Diamonds";
+    private String broken = "broken";
+
+    private String ace = "Ace";
+    private String jack = "Jack";
+    private String queen = "Queen";
+    private String king = "King";
 
 
     public Card(int cardSuit, int cardNum)
@@ -21,29 +28,29 @@ public class Card {
         this.cardSuit = cardSuit;
     }
 
-    public int getCardSuit()
+    public String getCardSuit()
     {
         if(cardSuit==1)
         {
-            return Integer.parseInt(hearts);
+            return hearts;
         }
 
         if(cardSuit==2)
         {
-            return Integer.parseInt(spades);
+            return spades;
         }
 
         if(cardSuit==3)
         {
-            return Integer.parseInt(clubs);
+            return clubs;
         }
 
         if(cardSuit==4)
         {
-            return Integer.parseInt(diamonds);
+            return diamonds;
         }
 
-        return cardSuit;
+        return broken;
     }
 
     public void setCardNum(int cardNum)
@@ -51,9 +58,29 @@ public class Card {
         this.cardNum = cardNum;
     }
 
-    public int getCardNum()
+    public String getCardNum()
     {
-        return cardNum;
+        if(cardNum==1)
+        {
+            return ace;
+        }
+
+        if(cardNum==11)
+        {
+            return jack;
+        }
+
+        if(cardNum==12)
+        {
+            return queen;
+        }
+
+        if(cardNum==13)
+        {
+            return king;
+        }
+
+        return String.valueOf(cardNum);
     }
 
 }
