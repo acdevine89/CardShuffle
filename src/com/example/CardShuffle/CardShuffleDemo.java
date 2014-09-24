@@ -16,10 +16,6 @@ public class CardShuffleDemo {
                 }
             }
 
-//            for (int i = 0; i < 52; i++) {
-//                System.out.println(deckOfCards.get(i).getCardNum() + " of " + deckOfCards.get(i).getCardSuit());
-//            }
-
     Collections.shuffle(deckOfCards);
 
     for (int player=1; player<5; player++)
@@ -29,11 +25,16 @@ public class CardShuffleDemo {
         for (int card=0; card<5; card++)
         {
             System.out.println(deckOfCards.get(card).getCardNum() + " of " + deckOfCards.get(card).getCardSuit());
+            deckOfCards.remove(card);
         }
 
     }
 
-
     }
+
+//PRINTING ENTIRE DECK:
+//            for (int i = 0; i < 52; i++) {
+//                System.out.println(deckOfCards.get(i).getCardNum() + " of " + deckOfCards.get(i).getCardSuit());
+//            }
 
 }
