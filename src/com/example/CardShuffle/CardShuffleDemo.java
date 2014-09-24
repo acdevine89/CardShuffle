@@ -14,7 +14,6 @@ public class CardShuffleDemo {
             for (int i=1; i<14; i++)
             {
                 Card newCard = new Card(suit, i);
-                //System.out.println("Suit is " + suit + ", number is " + i);
                 deckOfCards.add(newCard);
             }
         }
