@@ -4,35 +4,39 @@ import java.util.ArrayList;
 public class CardShuffleDemo {
 
     public static void main(String[] args) {
-        ArrayList<Integer> deckOfCards = new ArrayList<Integer>();
+        ArrayList<Card> deckOfCards = new ArrayList<Card>();
 
+    for(int suit=1; suit<5; suit++)
+    {
         for(int i=1; i<14; i++)
         {
-            if(i==1)
-            {
-                System.out.println("Ace of hearts");
-            }
-
-            else if(i==11)
-            {
-                System.out.println("Jack of hearts");
-            }
-
-            else if(i==12)
-            {
-                System.out.println("Queen of hearts");
-            }
-
-            else if(i==13)
-            {
-                System.out.println("King of hearts");
-            }
-
-            else
-            {
-                System.out.println(i + " of hearts");
-            }
+            Card newCard = new Card(suit, i);
+            System.out.println("Suit is " + suit + ", number is " + i);
+            deckOfCards.add(newCard);
         }
+    }
+
+
+        //            if(i==1)
+//            {
+//                newCard.setCardNum("Ace");
+//            }
+//
+//            else if(i==11)
+//            {
+//                newCard.setCardNum("Jack");
+//
+//            }
+//
+//            else if(i==12)
+//            {
+//                newCard.setCardNum("Queen");
+//            }
+//
+//            else if(i==13)
+//            {
+//                newCard.setCardNum("King");
+//            }
 
     }
 

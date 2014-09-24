@@ -2,21 +2,21 @@ package com.example.CardShuffle;
 
 public class Card {
 
-    private String cardSuit;
+    private int cardSuit;
     private int cardNum;
 
-    public Card(String cardSuit, int cardNum)
+    public Card(int cardSuit, int cardNum)
     {
         this.cardSuit = cardSuit;
         this.cardNum = cardNum;
     }
 
-    public void setCardSuit(String cardSuit)
+    public void setCardSuit(int cardSuit)
     {
         this.cardSuit = cardSuit;
     }
 
-    public String getCardSuit()
+    public int getCardSuit()
     {
         return cardSuit;
     }
