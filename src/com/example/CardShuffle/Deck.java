@@ -2,10 +2,12 @@ package com.example.CardShuffle;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Scanner;
 
 public class Deck {
 
     List<Card> deckOfCards = new ArrayList<Card>();
+    Scanner user = new Scanner(System.in);
     int player, card;
 
     public void createDeck()
@@ -20,6 +22,35 @@ public class Deck {
         }
     }
 
+    public void doSomething()
+    {
+        int userChoice;
+        boolean quit = false;
+
+        do
+        {
+            System.out.println("Let's deal some cards...");
+            System.out.print("Deal again? Type 1 for yes, or 2 for no: ");
+            checkIfInt(user);
+            userChoice = user.nextInt();
+            user.nextLine();
+
+            switch (userChoice)
+            {
+                case 1:
+                    aDeck.dealCards();
+                    break;
+                case 2:
+                    quit = true;
+                    break;
+                default:
+                    System.out.println();
+                    System.out.print("Invalid choice. Please type 1 to deal again, or 2 to exit the program: ");
+                    System.out.println();
+            }
+        }while(!quit);
+    }
+
     public void dealCards()
     {
         Collections.shuffle(deckOfCards);
@@ -27,7 +58,8 @@ public class Deck {
         for (player=0; player<4; player++)
         {
             System.out.println();
-            System.out.println("Player " + player + "'s Hand:");
+            System.out.println("Player " + (player+1) + "'s Hand:");
+            createHands();
         }
     }
 
