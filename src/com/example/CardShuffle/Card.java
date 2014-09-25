@@ -30,27 +30,19 @@ public class Card {
 
     public String getCardSuit()
     {
-        if(cardSuit==1)
+        switch(cardSuit)
         {
-            return hearts;
+            case 1:
+                return hearts;
+            case 2:
+                return spades;
+            case 3:
+                return clubs;
+            case 4:
+                return diamonds;
+            default:
+                return broken;
         }
-
-        if(cardSuit==2)
-        {
-            return spades;
-        }
-
-        if(cardSuit==3)
-        {
-            return clubs;
-        }
-
-        if(cardSuit==4)
-        {
-            return diamonds;
-        }
-
-        return broken;
     }
 
     public void setCardNum(int cardNum)
@@ -60,27 +52,20 @@ public class Card {
 
     public String getCardNum()
     {
-        if(cardNum==1)
+        switch(cardNum)
         {
-            return ace;
+            case 1:
+                return ace;
+            case 11:
+                return jack;
+            case 12:
+                return queen;
+            case 13:
+                return king;
+            default:
+                return String.valueOf(cardNum);
         }
 
-        if(cardNum==11)
-        {
-            return jack;
-        }
-
-        if(cardNum==12)
-        {
-            return queen;
-        }
-
-        if(cardNum==13)
-        {
-            return king;
-        }
-
-        return String.valueOf(cardNum);
     }
 
 }
