@@ -6,6 +6,7 @@ import java.util.List;
 public class Deck {
 
     List<Card> deckOfCards = new ArrayList<Card>();
+    int player, card;
 
     public void createDeck()
     {
@@ -19,21 +20,24 @@ public class Deck {
         }
     }
 
-
     public void dealCards()
     {
         Collections.shuffle(deckOfCards);
 
-        for (int player=1; player<5; player++)
+        for (player=0; player<4; player++)
         {
             System.out.println();
             System.out.println("Player " + player + "'s Hand:");
+        }
+    }
 
-            for (int card=0; card<5; card++)
-            {
-                System.out.println(deckOfCards.get(card).getCardNum() + " of " + deckOfCards.get(card).getCardSuit());
-                deckOfCards.remove(card);
-            }
+    public void createHands()
+    {
+        for (card=0; card<5; card++)
+        {
+            Card thisCard = deckOfCards.get(card+(5*player));
+            System.out.println(thisCard.getCardNum() + " of " + thisCard.getCardSuit());
+            //deckOfCards.remove(card);
         }
     }
 

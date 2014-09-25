@@ -6,7 +6,17 @@ public class CardShuffleDemo {
 
     Deck aDeck = new Deck();
     aDeck.createDeck();
-    aDeck.dealCards();
+        aDeck.dealCards();
+//    boolean quit = false;
+//
+//        do
+//        {
+//            aDeck.dealCards();
+//
+//            //need to add quit option for user
+//
+//        }while(!quit);
+
 
     }
 
