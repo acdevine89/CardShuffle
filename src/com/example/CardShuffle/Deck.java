@@ -43,6 +43,8 @@ public class Deck {
                     break;
                 case 2:
                     quit = true;
+                    System.out.println();
+                    System.out.println("Goodbye!");
                     break;
                 default:
                     System.out.println();
