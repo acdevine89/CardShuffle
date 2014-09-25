@@ -29,9 +29,8 @@ public class Deck {
         int userChoice;
         boolean quit = false;
 
-        System.out.println("Let's deal some cards...");
-
         do {
+            System.out.println();
             System.out.print("Deal again? Type 1 for yes, or 2 for no: ");
             checkIfInt(user);
             userChoice = user.nextInt();

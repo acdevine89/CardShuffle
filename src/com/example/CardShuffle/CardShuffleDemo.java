@@ -4,6 +4,8 @@ public class CardShuffleDemo {
 
     public static void main(String[] args) {
 
+        System.out.println("Let's deal some cards...");
+
         Deck aDeck = new Deck();
         aDeck.createDeck();
         aDeck.dealCards();
