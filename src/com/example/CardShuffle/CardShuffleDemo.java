@@ -4,10 +4,10 @@ public class CardShuffleDemo {
 
     public static void main(String[] args) {
 
-    Deck aDeck = new Deck();
-    aDeck.createDeck();
-
-
+        Deck aDeck = new Deck();
+        aDeck.createDeck();
+        aDeck.dealCards();
+        aDeck.programRepeat();
 
     }
 }

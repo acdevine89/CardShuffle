@@ -8,6 +8,8 @@ public class Deck {
 
     List<Card> deckOfCards = new ArrayList<Card>();
     Scanner user = new Scanner(System.in);
+
+
     int player, card;
 
     public void createDeck()
@@ -22,14 +24,14 @@ public class Deck {
         }
     }
 
-    public void doSomething()
+    public void programRepeat()
     {
         int userChoice;
         boolean quit = false;
 
-        do
-        {
-            System.out.println("Let's deal some cards...");
+        System.out.println("Let's deal some cards...");
+
+        do {
             System.out.print("Deal again? Type 1 for yes, or 2 for no: ");
             checkIfInt(user);
             userChoice = user.nextInt();
@@ -38,7 +40,7 @@ public class Deck {
             switch (userChoice)
             {
                 case 1:
-                    aDeck.dealCards();
+                    dealCards();
                     break;
                 case 2:
                     quit = true;
@@ -49,6 +51,27 @@ public class Deck {
                     System.out.println();
             }
         }while(!quit);
+    }
+
+    static void checkIfInt(Scanner user) {
+
+        boolean stayInLoop;
+
+        do {
+            if (!user.hasNextInt())
+            {
+                stayInLoop = true;
+                String clearBuffer = user.nextLine();
+                System.out.println();
+                System.out.print("Integers only, please. No letters, symbols, fractions or decimals. Please type 1 or 2: ");
+                user.hasNext();
+            }
+            else
+            {
+                stayInLoop = false;
+            }
+        }while(stayInLoop);
+
     }
 
     public void dealCards()
