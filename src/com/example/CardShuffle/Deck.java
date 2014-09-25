@@ -9,7 +9,6 @@ public class Deck {
     List<Card> deckOfCards = new ArrayList<Card>();
     Scanner user = new Scanner(System.in);
 
-
     int player, card;
 
     public void createDeck()
