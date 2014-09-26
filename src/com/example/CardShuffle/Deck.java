@@ -23,6 +23,31 @@ public class Deck {
         }
     }
 
+
+    public void dealCards()
+    {
+        Collections.shuffle(deckOfCards);
+
+        for (player=0; player<4; player++)
+        {
+            System.out.println();
+            System.out.println("Player " + (player+1) + "'s Hand:");
+            createHands();
+        }
+    }
+
+
+    public void createHands()
+    {
+        for (card=0; card<5; card++)
+        {
+            Card thisCard = deckOfCards.get(card+(5*player));
+            System.out.println(thisCard.getCardNum() + " of " + thisCard.getCardSuit());
+            //deckOfCards.remove(card);
+        }
+    }
+
+
     public void programRepeat()
     {
         int userChoice;
@@ -53,6 +78,7 @@ public class Deck {
         }while(!quit);
     }
 
+
     static void checkIfInt(Scanner user) {
 
         boolean stayInLoop;
@@ -72,28 +98,6 @@ public class Deck {
             }
         }while(stayInLoop);
 
-    }
-
-    public void dealCards()
-    {
-        Collections.shuffle(deckOfCards);
-
-        for (player=0; player<4; player++)
-        {
-            System.out.println();
-            System.out.println("Player " + (player+1) + "'s Hand:");
-            createHands();
-        }
-    }
-
-    public void createHands()
-    {
-        for (card=0; card<5; card++)
-        {
-            Card thisCard = deckOfCards.get(card+(5*player));
-            System.out.println(thisCard.getCardNum() + " of " + thisCard.getCardSuit());
-            //deckOfCards.remove(card);
-        }
     }
 
 }
